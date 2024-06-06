@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: caviar-b;
+  src: url(./Assets/fonts/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: caviar-italic;
+  src: url(./Assets/fonts/CaviarDreams_Italic.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(./Assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: timess;
+  src: url(./Assets/fonts/TIMESS__.ttf);
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(./Assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: handwritten;
+  src: url(./Assets/fonts/Autography.otf);
+}
+@font-face {
+  font-family: roboto-light;
+  src: url(./Assets/fonts/Roboto-Light.ttf);
+}
+.white-img-bg {
+  background-image: url(./Assets/images/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction.webp);
+}
+.letter-sp {
+  letter-spacing: 0.2rem;
+}
+.bg-ipare {
+  background-image: url(./assets/images/sallavogel-theme.webp);
+  overflow-x: hidden;
+  background-size: cover;
+}
+.link3 {
+  background-color: #ffff;
+  color: black;
+  text-decoration: none;
+  padding: 0.7em 4em;
+  margin: 2em 0em;
+}
+/* utility classes */
+.red-b {
+  border: 2px solid red;
+}
+.green-b {
+  border: 2px solid green;
+}
+.yellow-b {
+  /* border: 2px solid yellow; */
+}
+
+.d-flex {
+  display: flex;
+}
+.black-b {
+  border: 2px solid black;
+}
+.column {
+  flex-direction: column;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.content-start {
+  justify-content: flex-start;
+}
+
+.content-end {
+  justify-content: flex-end;
+}
+
+.content-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+.line-h1 {
+  line-height: 1.5;
+}
+.w-100 {
+  width: 100%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+.caviar-b {
+  font-family: caviar-b;
+  color: white;
+}
+.roboto-l {
+  font-family: roboto-light;
+}
+.roboto-b {
+  font-family: roboto-bold;
+}
+.timess {
+  font-family: timess;
+}
+.roboto-m {
+  font-family: roboto-medium;
+}
+.hand {
+  font-family: handwritten;
+}
+.fs-5 {
+  font-size: 5rem;
+}
+.fs-1 {
+  font-size: 1.5rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.fs-3 {
+  font-size: 3rem;
+}
+.fs-4 {
+  font-size: 4rem;
+}
+.fw-5 {
+  font-weight: 500;
+}
+.fw-6 {
+  font-weight: 600;
+}
+.fw-7 {
+  font-weight: 700;
+}
+.m-b05 {
+  margin-bottom: 0.5em;
+}
+.p1 {
+  padding: 1em;
+}
+.p2 {
+  padding: 2em;
+}
+.p3 {
+  padding: 3;
+}
+.mY {
+  margin: 1em 0;
+}
+.mX {
+  margin: 0em 1em;
+}
+.mX2 {
+  margin: 0em 2em;
+}
+.m1 {
+  margin: 1em;
+}
+.m2 {
+  margin: 2em;
+}
+.m-b1 {
+  margin-bottom: 1em;
+}
+.m-b2 {
+  margin-bottom: 2em;
+}
+.m-b3 {
+  margin-bottom: 3em;
+}
+.m-b4 {
+  margin-bottom: 4em;
+}
+.m-b5 {
+  margin-bottom: 5em;
+}
+.m-b7 {
+  margin-bottom: 7em;
+}
+.m-t1 {
+  margin-top: 1em;
+}
+.px1 {
+  padding: 0 1em;
+}
+
+.py1 {
+  padding: 1em 0;
+}
+.px2 {
+  padding: 0em 2em;
+}
+.px3 {
+  padding: 1em 3em;
+}
+.scale-2 {
+  scale: 2;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.height1 {
+  height: 3.5vh;
+}
+.h-25 {
+  height: 25vh;
+}
+.h-50 {
+  height: 50vh;
+}
+.h-50-p {
+  height: 50%;
+}
+.h-75 {
+  height: 75vh;
+}
+.h-100-p {
+  height: 100%;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 67.3%;
+}
+.top-hover {
+  background-color: rgb(107, 24, 24);
+}
+.txt-white {
+  color: white;
+  text-decoration: none;
+}
+.txt-black {
+  color: black;
+  text-decoration: none;
+}
+.txt-red {
+  color: red;
+  text-decoration: none;
+}
+.lg-blue-b {
+  border: 2px solid rgb(31, 123, 146);
+}
+.hover {
+  transform: scale(1);
+}
+.hover:hover {
+  transform: scale(1.02);
+}
+.my-bg1 {
+  background-image: url(./Assets/images/dark\ blur.webp);
+  object-fit: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.h-100 {
+  height: 100vh;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.white-bg {
+  background-color: white;
+}
+.hover-btn {
+  left: 2em;
+  bottom: 2em;
+  border-top-left-radius: 2.4em;
+  border-bottom-left-radius: 2.4em;
+  border-top-right-radius: 2.4em;
+  border-bottom-right-radius: 2.4em;
+}
+.over {
+  z-index: 1;
+}
+.wirect {
+  width: 180px;
+  height: 180px;
+  top: 0;
+  right: -1.5em;
+  z-index: 1;
+}
+.travel-leisure {
+  top: -0.8em;
+  right: 0;
+  height: 130px;
+  width: 130px;
+}
+.abs-txt {
+  background-color: black;
+  text-align: center;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.abs-txt2 {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  top: 0.5em;
+  right: 0.2em;
+  padding: 0.5em 0em;
+}
+.round {
+  border-radius: 50%;
+}
+.black-bg {
+  background-color: black;
+}
+.no-border {
+  border: 0em;
+}
+.m-left {
+  margin-left: 55em;
+}
+.p05 {
+  padding: 0.5em;
+}
+.line-thr {
+  text-decoration: line-through;
+}
+.txt-yellow {
+  color: #fcff2f;
+  text-decoration: none;
+}
+.txt-orange {
+  color: #ff6f21;
+  text-decoration: none;
+}
+.nav-bg {
+  background-color: rgba(255, 248, 239, 0.35);
+}
+.trs-tittle {
+  /* transform: skew(-20deg); */
+}
+.para-bg1 {
+  background-color: rgba(100, 102, 104, 0.308);
+  border-radius: 2em;
+  text-align: center;
+}
+.salla2-bg {
+  background-image: url(./assets/images/salla-madhe-brenda.jpg);
+}
+.para-bg2 {
+  background-image: url(./assets/images/ol-para.webp);
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-1 {
+  z-index: 1;
+}
+/* fade-in anims */
+@keyframes fade-in {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    opacity: 0.9;
+    opacity: 0.85;
+    opacity: 0.8;
+    opacity: 0.7;
+    opacity: 0.65;
+    opacity: 0.6;
+    opacity: 0.5;
+    opacity: 0.45;
+    opacity: 0.4;
+    opacity: 0.35;
+    opacity: 0.3;
+    opacity: 0.1;
+    opacity: 0.5;
+  }
+}
+.fade-in {
+  animation: fade-in 1.5s 0.5s 1 backwards;
+}
+@keyframes slide {
+  25% {
+    background-color: #fcff2f;
+    width: 25%;
+    opacity: 0.3;
+  }
+  50% {
+    background-color: #ff6f21;
+    width: 50%;
+    opacity: 0.5;
+  }
+  75% {
+    background-color: #ff6f21;
+    width: 75%;
+    opacity: 0.7;
+  }
+  100% {
+    background-color: black;
+    width: 100%;
+    opacity: 1;
+  }
+}
+.slide {
+  animation: slide 5s 0.5 backwards;
+}
